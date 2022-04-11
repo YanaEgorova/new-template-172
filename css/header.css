@@ -64,16 +64,20 @@ body.open-menu {
     left: 0;
     top: 0;
 }
+.df {
+    display: flex;
+    align-items: center;
+}
 .cart__span-box {
     font-size: 2.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--third-brand-color);
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
+    width: 6rem;
+    height: 5rem;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 .cart__span-box svg {
     display: block;
