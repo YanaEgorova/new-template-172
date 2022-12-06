@@ -177,7 +177,7 @@
     }
     .contacts__box {
         margin-bottom: 0;
-        background-color: rgba(245, 74, 58, .4);
+        background-color: var(--second-brand-color);
         padding: 5rem;
         position: relative;
         max-width: 60rem;
