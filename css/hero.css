@@ -45,7 +45,14 @@
     box-shadow: 0rem 0rem 2.5rem 0rem rgba(0,0,0,0.5);
     transition: all .3s ease-in-out;
 }
-
+.hero__block {
+    margin-bottom: 2rem;
+}
+.hero__img {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
 
 
 
@@ -151,7 +158,14 @@
         box-shadow: none;
     }
     .hero {
-        padding: 25rem 0 20rem;
+        padding: 20rem 15rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    .hero .text, .hero-btn {
+        margin-left: 0;
     }
 
     .contacts__wrapper-main::before {
@@ -164,6 +178,13 @@
         border: 18rem solid var(--second-brand-color);
         top: 0;
         right: -50rem;
+    }
+
+    .hero__block {
+        margin: 0;
+    }
+    .hero__img {
+        margin: 0;
     }
 
 
